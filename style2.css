@@ -1,0 +1,107 @@
+/*common shared styles*/
+boby {
+  font-family: "lato" sans-serif;
+  font-family: "open  sans " sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section-descriptioin {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
+
+/*nav related styles*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+  margin: 0 200px;
+}
+
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
+/*header  related styles */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner-content {
+  max-width: 500px;
+}
+
+.banner. profile-pic {
+  width: 500px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 50px;
+  font-weight: 700px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/*main sectiion styles */
+main {
+  max-width: 1140px;
+  margin: o auto;
+}
+
+/*abov section styles */
+
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
+}
+.about-info-containe {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
+}
+#what-do-description {
+  padding: 150px;
+}
